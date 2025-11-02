@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>M2BN Life Sciences</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"  rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid px-5">
+    <!-- Brand -->
+    <a class="navbar-brand fw-bold text-white" href="#">M2BN Life Sciences</a>
+
+    <!-- Toggle for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Content -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <!-- Centered Nav Items -->
+      <ul class="navbar-nav d-flex align-items-center gap-2 mx-auto" style="margin-left: 60px; margin-right: 100px;">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="index.html#home">Home</a>
+        </li>
+
+        <!-- Products dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#products" id="navbarDropdown" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="iphaseProducts.html">iPhase Products</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white" href="index.html#about">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white" href="index.html#contact">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Search Bar (Right side) -->
+      <form class="d-flex position-relative" role="search" id="globalSearchForm" onsubmit="handleSearch(); return false;">
+        <input
+          class="form-control rounded-pill ps-4 pe-5"
+          type="search"
+          placeholder="Search..."
+          aria-label="Search"
+          id="navbarSearchInput"
+          style="width: 230px; border: 1px solid #ccc;"
+        >
+        <button
+          class="btn position-absolute end-0 top-50 translate-middle-y me-2 p-0 border-0"
+          type="submit"
+          style="background: none;"
+        >
+          <i class="bi bi-search fs-5 text-dark"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+ <!-- Hero -->
+<section id="home" class="position-relative py-3">
+  <div class="container-fluid px-3 px-md-5">
+    <img src="images/hero.png" class="img-fluid hero-img rounded-3 shadow-sm" alt="Hero">
+  </div>
+</section>
+
+
+  <!-- Featured  -->
+ <section id="featured" class="py-5 text-center">
+  <div class="container ">
+    <h2 class="mb-4 ">Authorized by</h2>
+    <div class="col-lg-12">
+          <img src="images/Iphaselogo.jpg" class="img-fluid rounded" alt="iPhase">
+        </div>
+  </div>
+</section>
+
+  <!-- About -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container text-center">
+       <h2 class="mb-4">About Us</h2>
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6">
+          <img src="images/about.png" class="img-fluid rounded shadow-sm" alt="About">
+        </div>
+        <div class="col-lg-6">
+         
+          <p class="mt-3">
+            From a small beginning in 2024, our business has grown to encompass many services and products, 
+            covering different market sectors and geographical regions. The focus of our business, however, 
+            remains the same. We are a service-oriented company. Our mission is to provide a complete service to 
+            all our customers.
+            <br>
+            <br>
+            At M2BN Life Sciences, we are committed to delivering the highest quality laboratory products and chemicals.
+            Our dedication to exceptional customer service ensures that you receive the best support for your scientific needs.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+ <div  id="contact" class="container text-center">
+  <h2>Contact Us</h2>
+  <p class="mt-3 mb-0"><strong>M2BN Life Sciences</strong></p>
+  <p class="mb-0">
+    Flat No. 103, Siddhartha Towers, Bagh Ameer, Kukatpally, Hyderabad, Telangana - 500072
+  </p>
+  <p class="mb-0">📧 sales@m2bnlifesciences.com</p>
+  <p class="mb-1">📞 +91 9000130182</p>
+  <p class="mb-1">📞 +91 9000130183</p>
+   <span> <a
+      href="https://www.linkedin.com/in/m2bn-life-sciences-92516337b"
+      target="_blank"
+      class="social-icon linkedin"
+      id="linkedin-link"
+    >
+      <i class="fa-brands fa-linkedin"></i>
+    </a></span>
+    <span> <a
+      href="https://www.instagram.com/"
+      target="_blank"
+      class="social-icon instagram"
+      id="instagram-link"
+    >
+      <i class="fa-brands fa-square-instagram"></i>
+    </a></span>
+    
+ 
+</div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2023 - <span id="year"></span> M2BN Life Sciences — All rights reserved.</p>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

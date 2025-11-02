@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iPhase Products | M2BN Life Sciences</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="iPhaseProduct.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+   <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid px-5">
+    <!-- Brand -->
+    <a class="navbar-brand fw-bold text-white" href="#">M2BN Life Sciences</a>
+
+    <!-- Toggle for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Content -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <!-- Centered Nav Items -->
+      <ul class="navbar-nav d-flex align-items-center gap-2 mx-auto" style="margin-left: 60px; margin-right: 100px;">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="index.html#home">Home</a>
+        </li>
+
+        <!-- Products dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white active" href="#products" id="navbarDropdown" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="iphaseProducts.html">iPhase Products</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white" href="index.html#about">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white" href="index.html#contact">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Search Bar (Right side) -->
+      <form class="d-flex position-relative" role="search" id="globalSearchForm" onsubmit="handleSearch(); return false;">
+          <input
+            class="form-control rounded-pill ps-4 pe-5"
+            type="search"
+            placeholder="Search..."
+            aria-label="Search"
+            id="navbarSearchInput"  
+            style="width: 230px; border: 1px solid #ccc;"
+          >
+          <button
+            class="btn position-absolute end-0 top-50 translate-middle-y me-2 p-0 border-0"
+            type="submit"
+            style="background: none;"
+          >
+            <i class="bi bi-search fs-5 text-dark"></i>
+          </button>
+  </form>
+
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Main Content -->
+  
+<div class="container my-5">
+  <div>
+<h2 class="heading-blue-green">
+  <span>iPh</span><span>ase Products</span>
+</h2>
+</div>
+
+    
+    <div id="accordionContainer"></div>
+  </div>
+
+
+<!-- 🔔 Centered Red Toast -->
+<div class="position-fixed top-0 start-50 translate-middle-x p-3" style="z-index: 1080;">
+  <div id="searchWarningToast" 
+       class="toast align-items-center text-bg-danger border-0" 
+       role="alert" 
+       aria-live="assertive" 
+       aria-atomic="true" 
+       data-bs-delay="1000" 
+       data-bs-autohide="true">
+    <div class="d-flex">
+      <div class="toast-body text-center fw-semibold text-white" id="toastMessage">
+        ⚠️ No product found.
+      </div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto" 
+              data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2023 - <span id="year"></span> M2BN Life Sciences — All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="iPhaseProduct.js"></script>
+
+  <!-- Auto-update year -->
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    
+  </script>
+
+</body>
+</html>

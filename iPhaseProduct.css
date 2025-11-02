@@ -1,0 +1,122 @@
+.accordion-body {
+  display: none;
+  padding: 10px;
+  background: #431818;
+}
+.search-box {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 8px;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+ .accordion-header {
+   background: hsl(0, 0%, 100%);
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.accordion-arrow {
+  transition: transform 0.3s;
+  display: inline-block;
+}
+
+.accordion-body {
+  display: block; 
+  padding: 10px;
+  background: #ffffff;
+} 
+/* Remove Bootstrap default caret */
+.accordion-button::after { display: none; }
+
+/* Add + / - icon on the RIGHT */
+.accordion-button {
+  position: relative;
+  padding-right: 75px !important; /* space for icon */
+}
+
+.accordion-button::before {
+  content: "+";
+  position: absolute;
+  right: 12px;
+  font-size: 22px;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+/* When accordion is open, show minus */
+.accordion-button:not(.collapsed)::before {
+  content: "-";
+  position: absolute;
+  right: 12px;
+  font-size: 22px;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+table tr:hover td {
+  background-color: #90c0f0 !important;
+  cursor: pointer;
+}
+
+/* Add spacing between nav items */
+.navbar-nav .nav-item {
+  margin: 0 10px; /* Adjust spacing between items */
+}
+
+/* Highlight active nav link */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+  color: #ffc107 !important; /* gold/yellow accent */
+  border-bottom: 2px solid #ffc107;
+}
+
+/* For dropdown open state */
+.nav-item.dropdown.show .nav-link {
+  color: #ffc107 !important;
+}
+
+
+.search-highlight,
+tr.search-highlight > td,
+tr.search-highlight > th {
+  background-color: #bce2bc !important;
+  transition: background-color 1.2s ease;
+}
+
+.toast {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.2s ease;
+} 
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.heading-blue-green{
+  padding-right: 50px;
+}
+.heading-blue-green span:first-child {
+  color: #1c4d90;
+}
+
+.heading-blue-green span:last-child {
+  color: #389c38;
+
+}

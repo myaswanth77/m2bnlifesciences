@@ -1,0 +1,73 @@
+
+.btn-teal {
+  background-color: #00b3aa;
+  color: #fff;
+  border: none;
+}
+
+.btn-teal:hover {
+  background-color: #009688;
+}
+
+h2 {
+  color: #555;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+#contact a:hover {
+  color: #00b3aa;
+  transition: color 0.3s;
+}
+.social-icon {
+  width: 45px;
+  height: 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: black;
+  font-size: 1.8rem;
+  text-decoration: none;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* keeps image aspect ratio while filling container */
+  border-radius: 15px;
+   filter: brightness(70%);
+}
+#hero {
+  overflow: hidden;
+}
+
+/* Add spacing between nav items */
+.navbar-nav .nav-item {
+  margin: 0 10px; /* Adjust spacing between items */
+}
+
+/* Highlight active nav link */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+  color: #ffc107 !important; /* gold/yellow accent */
+  border-bottom: 2px solid #ffc107;
+}
+
+/* For dropdown open state */
+.nav-item.dropdown.show .nav-link {
+  color: #ffc107 !important;
+}
+
+#globalSearchInput:focus {
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+  border-color: #007bff;
+}
+
+#globalSearchForm button:hover i {
+  color: #007bff;
+}
