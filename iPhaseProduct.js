@@ -1457,13 +1457,28 @@ function performLocalSearch(query) {
 // Expand / Contract All accordions
 document.addEventListener("DOMContentLoaded", function () {
   const toggleBtn = document.getElementById("toggleAllBtn");
-  if (!toggleBtn) return; // safety check if button not found
+  if (!toggleBtn) return;
 
-  let expanded = false; // track the state (collapsed by default)
+  let expanded = false; // track global state
+
+  function updateButtonText() {
+    const accordions = document.querySelectorAll(".accordion-collapse");
+    const total = accordions.length;
+    const openCount = Array.from(accordions).filter(acc => acc.classList.contains("show")).length;
+
+    // Only update text when all are expanded or all are collapsed
+    if (openCount === total) {
+      expanded = true;
+      toggleBtn.textContent = "Contract All";
+    } else if (openCount === 0) {
+      expanded = false;
+      toggleBtn.textContent = "Expand All";
+    }
+    // if partially open, keep current button text as-is
+  }
 
   toggleBtn.addEventListener("click", () => {
     const accordions = document.querySelectorAll(".accordion-collapse");
-
     accordions.forEach(acc => {
       const bsCollapse =
         bootstrap.Collapse.getInstance(acc) ||
@@ -1473,5 +1488,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     expanded = !expanded;
     toggleBtn.textContent = expanded ? "Contract All" : "Expand All";
+  });
+
+  // Watch for manual expand/collapse
+  const accordionElements = document.querySelectorAll(".accordion-collapse");
+  accordionElements.forEach(acc => {
+    acc.addEventListener("shown.bs.collapse", updateButtonText);
+    acc.addEventListener("hidden.bs.collapse", updateButtonText);
   });
 });
