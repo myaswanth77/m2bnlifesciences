@@ -1453,3 +1453,25 @@ function performLocalSearch(query) {
   // Smooth scroll to first match
   firstMatch?.scrollIntoView({ behavior: "smooth", block: "center" });
 }
+
+// Expand / Contract All accordions
+document.addEventListener("DOMContentLoaded", function () {
+  const toggleBtn = document.getElementById("toggleAllBtn");
+  if (!toggleBtn) return; // safety check if button not found
+
+  let expanded = false; // track the state (collapsed by default)
+
+  toggleBtn.addEventListener("click", () => {
+    const accordions = document.querySelectorAll(".accordion-collapse");
+
+    accordions.forEach(acc => {
+      const bsCollapse =
+        bootstrap.Collapse.getInstance(acc) ||
+        new bootstrap.Collapse(acc, { toggle: false });
+      expanded ? bsCollapse.hide() : bsCollapse.show();
+    });
+
+    expanded = !expanded;
+    toggleBtn.textContent = expanded ? "Contract All" : "Expand All";
+  });
+});

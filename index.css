@@ -54,20 +54,20 @@ footer {
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:focus,
 .navbar-nav .nav-link:hover {
-  color: #ffc107 !important; /* gold/yellow accent */
-  border-bottom: 2px solid #ffc107;
+  color: #00bbff !important; 
+  border-bottom: 2px solid #007bff;
 }
 
 /* For dropdown open state */
 .nav-item.dropdown.show .nav-link {
-  color: #ffc107 !important;
+  color: #00bbff !important; 
 }
 
 #globalSearchInput:focus {
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
-  border-color: #007bff;
+  box-shadow: 0 0 5px #00bbff;
+  border-color: #00bbff;
 }
 
 #globalSearchForm button:hover i {
-  color: #007bff;
+  color: #00bbff;
 }

@@ -83,13 +83,13 @@ table tr:hover td {
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:focus,
 .navbar-nav .nav-link:hover {
-  color: #ffc107 !important; /* gold/yellow accent */
-  border-bottom: 2px solid #ffc107;
+  color: #00bbff !important; 
+  border-bottom: 2px solid #00bbff;
 }
 
 /* For dropdown open state */
 .nav-item.dropdown.show .nav-link {
-  color: #ffc107 !important;
+  color: #00bbff !important; 
 }
 
 
