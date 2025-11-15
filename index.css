@@ -138,5 +138,13 @@ footer {
     margin: 0 auto !important;
   }
 
+  /* Force the dropdown to stay centered and inside the screen */
+  .mobile-contact-icon .dropdown-menu {
+    left: 50% !important;
+    right: auto !important;
+    transform: translateX(-50%) !important;
+  }
+
 
 }
+
