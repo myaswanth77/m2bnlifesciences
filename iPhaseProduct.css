@@ -120,3 +120,73 @@ tr.search-highlight > th {
   color: #389c38;
 
 }
+
+
+/* Circle hover effect for the phone icon */
+.enquiry-icon i {
+  padding: 8px;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+}
+
+.enquiry-icon:hover i {
+  background: #00bbff; /* light circle */
+}
+
+
+/* Icon styling */
+.mobile-contact-icon {
+    margin-top: 10px; /* space below search bar */
+    text-align: center; /* default for desktop/tablet */
+}
+
+.mobile-contact-icon i {
+    font-size: 22px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+/* Hover circle */
+.mobile-contact-icon i:hover {
+     background: #00bbff;
+}
+
+
+@media (max-width: 768px) {
+
+  /* Container holding phone icon */
+  .mobile-contact-icon {
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 10px;
+    margin-left: 0 !important;
+  }
+
+  /* Align the content (icon + text) to center */
+  .mobile-contact-icon a {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px;
+    width: 100%;
+    text-align: center;
+    margin-right: 70px;
+  }
+
+
+  #navbarSearchInput {
+    width: 80% !important;
+    margin: 0 auto !important;
+  }
+
+
+}
