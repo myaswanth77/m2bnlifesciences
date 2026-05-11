@@ -1,0 +1,16 @@
+{
+    "name": "M2BN Lifesciences",
+    "short_name": "M2BN", 
+    "start_url": "index.html",
+    "display": "standalone",    
+    "background_color": "#ffffff",
+    "theme_color": "#00bbff",
+    "icons": [
+    
+        {
+            "src": "favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        }
+    ]
+}

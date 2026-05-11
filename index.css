@@ -1,0 +1,150 @@
+
+.btn-teal {
+  background-color: #00b3aa;
+  color: #fff;
+  border: none;
+}
+
+.btn-teal:hover {
+  background-color: #009688;
+}
+
+h2 {
+  color: #555;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+#contact a:hover {
+  color: #00b3aa;
+  transition: color 0.3s;
+}
+.social-icon {
+  width: 45px;
+  height: 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: black;
+  font-size: 1.8rem;
+  text-decoration: none;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* keeps image aspect ratio while filling container */
+  border-radius: 15px;
+   filter: brightness(70%);
+}
+#hero {
+  overflow: hidden;
+}
+
+/* Add spacing between nav items */
+.navbar-nav .nav-item {
+  margin: 0 10px; /* Adjust spacing between items */
+}
+
+/* Highlight active nav link */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+  color: #00bbff !important; 
+  border-bottom: 2px solid #007bff;
+}
+
+/* For dropdown open state */
+.nav-item.dropdown.show .nav-link {
+  color: #00bbff !important; 
+}
+
+#globalSearchInput:focus {
+  box-shadow: 0 0 5px #00bbff;
+  border-color: #00bbff;
+}
+
+#globalSearchForm button:hover i {
+  color: #00bbff;
+}
+
+/* Circle hover effect for the phone icon */
+.enquiry-icon i {
+  padding: 8px;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+}
+
+.enquiry-icon:hover i {
+  background: #00bbff; /* light circle */
+}
+
+
+/* Icon styling */
+.mobile-contact-icon {
+    margin-top: 10px; /* space below search bar */
+    text-align: center; /* default for desktop/tablet */
+}
+
+.mobile-contact-icon i {
+    font-size: 22px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+/* Hover circle */
+.mobile-contact-icon i:hover {
+     background: #00bbff;
+}
+
+
+@media (max-width: 768px) {
+
+  /* Container holding phone icon */
+  .mobile-contact-icon {
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 10px;
+    margin-left: 0 !important;
+  }
+
+  /* Align the content (icon + text) to center */
+  .mobile-contact-icon a {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px;
+    width: 100%;
+    text-align: center;
+    margin-right: 70px;
+  }
+
+
+  #navbarSearchInput {
+    width: 80% !important;
+    margin: 0 auto !important;
+  }
+
+  /* Force the dropdown to stay centered and inside the screen */
+  .mobile-contact-icon .dropdown-menu {
+    left: 50% !important;
+    right: auto !important;
+    transform: translateX(-50%) !important;
+  }
+
+
+}
+
