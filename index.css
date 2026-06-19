@@ -88,7 +88,11 @@ footer {
   background: #00bbff; /* light circle */
 }
 
-
+.logo-img {
+    height: 120px;
+    max-width: 100%;
+    object-fit: contain;
+}
 /* Icon styling */
 .mobile-contact-icon {
     margin-top: 10px; /* space below search bar */
