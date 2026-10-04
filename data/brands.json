@@ -25,7 +25,7 @@
   },
   {
     "name": "BioIVT",
-    "text": "Biospecimens, cells, and research models for life science research. (edit this description)",
+    "text": "Biospecimens, cells, and research models for life science research.",
     "url": "#products",
     "logo": "assets/logos/bioivt.webp",
     "lw": 511,
@@ -33,7 +33,7 @@
   },
   {
     "name": "TM Media",
-    "text": "Culture media and laboratory reagents for research and diagnostics. (edit this description)",
+    "text": "Culture media and laboratory reagents for research and diagnostics.",
     "url": "#products",
     "logo": "assets/logos/tm-media.webp",
     "lw": 772,
