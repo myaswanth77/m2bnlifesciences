@@ -1,0 +1,980 @@
+[
+  {
+    "id": "adme-dmpk-products",
+    "slug": "adme-dmpk-products",
+    "name": "ADME & DMPK Products",
+    "shortDescription": "In vitro ADME and DMPK research products for drug metabolism studies.",
+    "description": "High-quality in vitro ADME and DMPK research products supporting drug metabolism, pharmacokinetics, transporter studies, metabolic stability and preclinical drug discovery.",
+    "image": "assets/images/categories/adme-dmpk.webp",
+    "imageAlt": "ADME & DMPK Products – scientific laboratory visual",
+    "e": "🫀",
+    "c": "#f6d9d3",
+    "subcategories": [
+      {
+        "name": "Liver Microsomes",
+        "products": [
+          "Human Liver Microsomes",
+          "Monkey Liver Microsomes",
+          "Dog/Beagle Liver Microsomes",
+          "Rat Liver Microsomes",
+          "Mouse Liver Microsomes",
+          "Minipig Liver Microsomes",
+          "Feline Liver Microsomes",
+          "Rabbit Liver Microsomes"
+        ]
+      },
+      {
+        "name": "Other Microsomes",
+        "products": [
+          "Human Intestinal Microsomes",
+          "Monkey Intestinal Microsomes",
+          "Rat Intestinal Microsomes",
+          "Mouse Intestinal Microsomes",
+          "Human Kidney Microsomes",
+          "Rat Kidney Microsomes",
+          "Mouse Kidney Microsomes",
+          "Human Lung Microsomes"
+        ]
+      },
+      {
+        "name": "Hepatocytes",
+        "products": [
+          "Human Suspension Hepatocytes",
+          "Human Plateable Hepatocytes",
+          "Cynomolgus Monkey Hepatocytes",
+          "Rhesus Monkey Hepatocytes",
+          "Beagle Dog Hepatocytes",
+          "Sprague-Dawley Rat Hepatocytes",
+          "Wistar Rat Hepatocytes",
+          "ICR/CD-1 Mouse Hepatocytes",
+          "C57BL/6 Mouse Hepatocytes",
+          "Minipig Hepatocytes",
+          "Rabbit Hepatocytes"
+        ]
+      },
+      {
+        "name": "S9 / Cytosol / Homogenates",
+        "products": [
+          "Human Liver S9",
+          "Rat Liver S9",
+          "Mouse Liver S9",
+          "Monkey Liver S9",
+          "Human Liver Cytosol",
+          "Rat Liver Cytosol",
+          "Mouse Liver Cytosol",
+          "Liver Homogenate",
+          "Intestinal S9",
+          "Kidney S9",
+          "Lung S9"
+        ]
+      },
+      {
+        "name": "Lysosomes",
+        "products": [
+          "Human Liver Lysosomes",
+          "Monkey Liver Lysosomes",
+          "Dog Liver Lysosomes",
+          "Rat Liver Lysosomes",
+          "Mouse Liver Lysosomes",
+          "Rat Liver Tritosomes"
+        ]
+      },
+      {
+        "name": "Metabolism / Enzymes",
+        "products": [
+          "CYP Enzymes",
+          "UGT Enzymes",
+          "SULT Enzymes",
+          "Metabolic Stability Kits",
+          "Phase II Metabolic Stability Kits",
+          "CYP Induction Assay Kits",
+          "NADPH Regeneration Systems",
+          "UGT Incubation Systems"
+        ]
+      },
+      {
+        "name": "Transporters",
+        "products": [
+          "Transporter Vesicles",
+          "Uptake Transporter Systems",
+          "Efflux Transporter Systems"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "primary-cells-immunocytes",
+    "slug": "primary-cells-immunocytes",
+    "name": "Primary Cells & Immunocytes",
+    "shortDescription": "Primary cells and immune cells for immunology and drug discovery.",
+    "description": "Primary cells and immune cell products for immunology, cell biology, drug discovery and translational research.",
+    "image": "assets/images/categories/primary-cells.webp",
+    "imageAlt": "Primary Cells & Immunocytes – scientific laboratory visual",
+    "e": "🦠",
+    "c": "#d6efdd",
+    "subcategories": [
+      {
+        "name": "Primary Cells",
+        "products": [
+          "Human PBMC",
+          "Cynomolgus Monkey PBMC",
+          "Rhesus Monkey PBMC",
+          "Beagle Dog PBMC",
+          "Rat PBMC",
+          "Mouse PBMC",
+          "Minipig PBMC",
+          "Rabbit PBMC",
+          "Feline PBMC",
+          "Human Leukocytes"
+        ]
+      },
+      {
+        "name": "T Cells",
+        "products": [
+          "Human CD3+ T Cells",
+          "Human CD4+ T Cells",
+          "Human CD8+ T Cells",
+          "Mouse CD3+ T Cells",
+          "Mouse CD4+ T Cells",
+          "Mouse CD8+ T Cells"
+        ]
+      },
+      {
+        "name": "Other Immunocytes",
+        "products": [
+          "Human NK Cells",
+          "Mouse NK Cells",
+          "B Cells",
+          "Monocytes",
+          "Macrophages",
+          "Dendritic Cells",
+          "Red Blood Cells"
+        ]
+      },
+      {
+        "name": "Supporting Products",
+        "products": [
+          "Cell Thaw Medium",
+          "PBMC Freezing Medium",
+          "Cell Culture Media",
+          "Cell Maintenance Media"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cell-separation-products",
+    "slug": "cell-separation-products",
+    "name": "Cell Separation Products",
+    "shortDescription": "Isolation kits and magnetic products for cell enrichment and purification.",
+    "description": "Cell isolation and separation solutions supporting efficient enrichment, depletion and purification of immune and research cell populations.",
+    "image": "assets/images/categories/cell-separation.webp",
+    "imageAlt": "Cell Separation Products – scientific laboratory visual",
+    "e": "🔵",
+    "c": "#dde3f8",
+    "subcategories": [
+      {
+        "name": "Isolation Kits",
+        "products": [
+          "Human PBMC Isolation Kit",
+          "Mouse PBMC Isolation Kit",
+          "Human CD3+ T Cell Isolation Kit",
+          "Human CD4+ T Cell Isolation Kit",
+          "Human CD8+ T Cell Isolation Kit",
+          "Human CD14+ Monocyte Isolation Kit",
+          "Human CD19+ B Cell Isolation Kit",
+          "Human CD56+ NK Cell Isolation Kit",
+          "Mouse CD3+ T Cell Separation Kit",
+          "Mouse CD4+ T Cell Separation Kit",
+          "Mouse CD8+ T Cell Separation Kit",
+          "Mouse CD19+ B Cell Separation Kit"
+        ]
+      },
+      {
+        "name": "Selection Technologies",
+        "products": [
+          "Positive Selection Kits",
+          "Negative Selection Kits",
+          "Aptamer-Based Selection Kits",
+          "Traceless Selection Kits"
+        ]
+      },
+      {
+        "name": "Magnetic Products",
+        "products": [
+          "Streptavidin Magnetic Beads",
+          "GST Beads",
+          "Magnetic Separation Beads",
+          "SA Nanobeads",
+          "Isolation Buffers"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "organoid-research",
+    "slug": "organoid-research",
+    "name": "Organoid Research",
+    "shortDescription": "Organoid kits and culture products for drug screening and disease modeling.",
+    "description": "Advanced organoid culture products and model systems supporting drug screening, toxicology, oncology and disease-modeling research.",
+    "image": "assets/images/categories/organoid-research.webp",
+    "imageAlt": "Organoid Research – scientific laboratory visual",
+    "e": "🧫",
+    "c": "#fadbe0",
+    "subcategories": [
+      {
+        "name": "Organoid Kits",
+        "products": [
+          "Human Colon Organoid Kit",
+          "Small Cell Lung Cancer Organoid Kit",
+          "Liver Organoid Kit",
+          "Intestinal Organoid Kit",
+          "Tumor Organoid Kits",
+          "Disease Model Organoid Kits"
+        ]
+      },
+      {
+        "name": "Organoid Culture",
+        "products": [
+          "Organoid Culture Media",
+          "Organoid Expansion Media",
+          "Organoid Differentiation Media",
+          "Basement Membrane Matrix",
+          "Growth Factors",
+          "Organoid Maintenance Reagents"
+        ]
+      },
+      {
+        "name": "Applications",
+        "products": [
+          "Drug Screening",
+          "Toxicology",
+          "Cancer Research",
+          "Disease Modeling",
+          "Personalized Medicine"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "genotoxicity-products",
+    "slug": "genotoxicity-products",
+    "name": "Genotoxicity Products",
+    "shortDescription": "Assay kits and reagents for mutation and DNA-damage testing.",
+    "description": "Genotoxicity testing products for mutation, chromosomal damage, micronucleus and DNA-damage studies.",
+    "image": "assets/images/categories/genotoxicity.webp",
+    "imageAlt": "Genotoxicity Products – scientific laboratory visual",
+    "e": "🧬",
+    "c": "#cfe0fb",
+    "subcategories": [
+      {
+        "name": "Ames / Bacterial Mutation",
+        "products": [
+          "Ames Test Kits",
+          "Ames Strain Identification Kit",
+          "Bacterial Mutation Assay Products",
+          "S9 Metabolic Activation Systems"
+        ]
+      },
+      {
+        "name": "Chromosomal Aberration",
+        "products": [
+          "In-Vitro Mammalian Chromosomal Aberration Test Kit",
+          "CHL Cell Line",
+          "Chromosomal Aberration Reagents"
+        ]
+      },
+      {
+        "name": "Micronucleus",
+        "products": [
+          "Micronucleus Test Kits",
+          "Mammalian Cell Micronucleus Assay Products"
+        ]
+      },
+      {
+        "name": "Comet Assay",
+        "products": ["Comet Assay Kits", "DNA Damage Detection Products"]
+      },
+      {
+        "name": "S9",
+        "products": [
+          "Rat Liver S9",
+          "Hamster Liver S9",
+          "S9 Mix",
+          "Activation Systems"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tissue-specimens",
+    "slug": "tissue-specimens",
+    "name": "Tissue Specimens",
+    "shortDescription": "Human and animal tissue specimens in research-ready formats.",
+    "description": "Human and animal tissue specimens supplied in research-ready formats for biomedical, translational and preclinical studies.",
+    "image": "assets/images/categories/tissue-specimens.webp",
+    "imageAlt": "Tissue Specimens – scientific laboratory visual",
+    "e": "🔬",
+    "c": "#eadaf3",
+    "subcategories": [
+      {
+        "name": "Human Tissue",
+        "products": [
+          "Human Liver Tissue",
+          "Human Kidney Tissue",
+          "Human Brain Tissue",
+          "Human Lung Tissue",
+          "Human Heart Tissue",
+          "Human Skin Tissue",
+          "Human Colon Tissue",
+          "Human Stomach Tissue",
+          "Human Intestinal Tissue",
+          "Human Bladder Tissue",
+          "Human Skeletal Muscle Tissue",
+          "Human Tumor Tissue"
+        ]
+      },
+      {
+        "name": "Animal Tissue",
+        "products": [
+          "Monkey Tissue",
+          "Dog Tissue",
+          "Rat Tissue",
+          "Mouse Tissue",
+          "Rabbit Tissue",
+          "Other Animal Tissue"
+        ]
+      },
+      {
+        "name": "Formats",
+        "products": [
+          "Fresh Tissue",
+          "Frozen Tissue",
+          "FFPE Tissue",
+          "OCT Embedded Tissue",
+          "Tissue Blocks",
+          "Tissue Sections",
+          "Tissue Arrays"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cgt-advanced-therapies",
+    "slug": "cgt-advanced-therapies",
+    "name": "CGT & Advanced Therapies",
+    "shortDescription": "Cell and gene therapy research solutions and supporting reagents.",
+    "description": "Cell and gene therapy research solutions supporting immune-cell workflows, activation, gene delivery, expansion and advanced therapeutic development.",
+    "image": "assets/images/categories/cgt-advanced-therapies.webp",
+    "imageAlt": "CGT & Advanced Therapies – scientific laboratory visual",
+    "e": "💉",
+    "c": "#e0d9f7",
+    "subcategories": [
+      {
+        "name": "Cell Therapy",
+        "products": [
+          "T Cells",
+          "CD3+ T Cells",
+          "CD4+ T Cells",
+          "CD8+ T Cells",
+          "NK Cells",
+          "PBMC",
+          "Leukocytes"
+        ]
+      },
+      {
+        "name": "Cell Activation",
+        "products": [
+          "CD3/CD28 T Cell Activation Beads",
+          "CD3/CD28 T Cell Activation Kits",
+          "Bead-Free Activation Kits",
+          "Cell Expansion Products"
+        ]
+      },
+      {
+        "name": "Gene Therapy",
+        "products": [
+          "Lentivirus Packaging Kits",
+          "Lentivirus Concentration Reagents",
+          "eGFP-Luciferase Lentivirus",
+          "mCherry-Luciferase Lentivirus",
+          "eGFP-Luciferase-Puro Lentivirus",
+          "mCherry-Luciferase-Puro Lentivirus"
+        ]
+      },
+      {
+        "name": "Cell Culture / CGT Support",
+        "products": [
+          "Cell Culture Media",
+          "Cell Expansion Media",
+          "Cytokines",
+          "Growth Factors",
+          "Recombinant Proteins",
+          "Antibodies",
+          "Cryopreservation Products",
+          "Cell Freezing Media"
+        ]
+      },
+      {
+        "name": "CGT Research",
+        "products": [
+          "CAR-T Research",
+          "CAR-NK Research",
+          "Gene Transduction",
+          "Cell Expansion",
+          "Cell Characterization",
+          "Cryopreservation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "laboratory-consumables",
+    "slug": "laboratory-consumables",
+    "name": "Laboratory Consumables",
+    "shortDescription": "Everyday laboratory consumables for research workflows.",
+    "description": "Laboratory consumables for research, analytical and clinical workflows. Tell us what you need and our team will respond with availability and a quotation.",
+    "image": "assets/images/categories/laboratory-consumables.webp",
+    "imageAlt": "Laboratory Consumables – scientific laboratory visual",
+    "e": "🧴",
+    "c": "#dff1fb",
+    "subcategories": [
+      {
+        "name": "Disinfectants & Cleaning Chemicals",
+        "products": [
+          "Virex II 256",
+          "SU 319",
+          "Totasep",
+          "Divosan Activ",
+          "Oxivir Five 16",
+          "Clax Master 100",
+          "Nitric Acid",
+          "Orthophosphoric Acid",
+          "Sterillium",
+          "IPA (Isopropyl Alcohol)",
+          "Hand Sanitizer",
+          "Cleaning Solutions",
+          "Autoclavable Spray Bottle"
+        ]
+      },
+      {
+        "name": "Gloves",
+        "products": [
+          "Sterile Gloves",
+          "Non-Sterile Gloves",
+          "Blue Shield Gloves",
+          "Nitrile Gloves",
+          "Latex Gloves",
+          "Hypalon Gloves – 8 inch",
+          "Hypalon Gloves – 10 inch",
+          "Heat & Cut Resistant Gloves",
+          "RABS Gloves"
+        ]
+      },
+      {
+        "name": "Filters",
+        "products": [
+          "Membrane Filters – 293 nm",
+          "Membrane Filters – 2.0 µm",
+          "Membrane Filters – 0.22 µm",
+          "Hydrophobic Capsule Filters – 5 inch",
+          "Hydrophobic Capsule Filters – 10 inch",
+          "Syringe Filters",
+          "Filter Papers",
+          "PTFE Filters",
+          "PVDF Filters",
+          "Nylon Filters",
+          "PES Filters"
+        ]
+      },
+      {
+        "name": "Clean Room Garments & PPE",
+        "products": [
+          "Aseptic Area Garments",
+          "Non-Aseptic Area Garments",
+          "Factory Garments",
+          "Disposable Garments",
+          "Clean Room Garments",
+          "Head Caps",
+          "Nose Masks",
+          "N95 Masks",
+          "Shoe Covers",
+          "Clean Room Shoes",
+          "Autoclavable Shoes"
+        ]
+      },
+      {
+        "name": "Goggles",
+        "products": [
+          "Aseptic Area Goggles",
+          "Non-Aseptic Area Goggles",
+          "Autoclavable Goggles",
+          "Lab Goggles"
+        ]
+      },
+      {
+        "name": "Sterilization & Packaging",
+        "products": [
+          "Sterile Reels / Wrapping Reels – 50 mm",
+          "Sterile Reels / Wrapping Reels – 75 mm",
+          "Sterile Reels / Wrapping Reels – 100 mm",
+          "Sterile Reels / Wrapping Reels – 150 mm",
+          "Sterile Reels / Wrapping Reels – 200 mm",
+          "Sterile Reels / Wrapping Reels – 250 mm",
+          "Sterile Reels / Wrapping Reels – 300 mm",
+          "Sterile Reels / Wrapping Reels – 350 mm",
+          "Sterile Reels / Wrapping Reels – 400 mm",
+          "Tyvek Reels",
+          "Tyvek Bags for Stoppers – 395 × 495 mm",
+          "Tyvek Bags for Stoppers – 650 × 495 mm",
+          "Bowl Covers – Tyvek",
+          "Sterilization Pouches",
+          "Pouch Sealing Machine",
+          "Autoclave Bags",
+          "Aluminium Foil",
+          "Para Film",
+          "Teflon Tape",
+          "Self-Sealed Covers – 3 × 4",
+          "Self-Sealed Covers – 4 × 6",
+          "Self-Sealed Covers – 6 × 8",
+          "Self-Sealed Covers – 8 × 10",
+          "Self-Sealed Covers – 10 × 12",
+          "Self-Sealed Covers – 12 × 16"
+        ]
+      },
+      {
+        "name": "Sterilization Monitoring",
+        "products": [
+          "Sterile Indicator Tapes",
+          "Indicator Tapes",
+          "Bowie-Dick Kits",
+          "Spore Strips",
+          "Biological Indicators (BI)"
+        ]
+      },
+      {
+        "name": "Clean Room Accessories",
+        "products": [
+          "Sticky Mats",
+          "Clean Room Wipes",
+          "Cleaning Mops",
+          "Cleaning Brushes – Small",
+          "Cleaning Brushes – Medium",
+          "Cleaning Brushes – Large",
+          "Cleaning Cloths",
+          "Cotton Absorbent",
+          "Clean Room Buckets",
+          "Clean Room Tapes",
+          "Clean Room Tools",
+          "Clean Room Stationery",
+          "Clean Room Trolleys",
+          "Cotton Swabs"
+        ]
+      },
+      {
+        "name": "Sterile / Surgical Items",
+        "products": [
+          "Sterile Surgical Blades – Small",
+          "Needles – Small",
+          "Needles – Medium",
+          "Needles – Long",
+          "Long Needles"
+        ]
+      },
+      {
+        "name": "Tubes, Pipes & Fittings",
+        "products": [
+          "Silicone Tubes",
+          "Green Pipe",
+          "Red Pipe",
+          "Syphon Pipes",
+          "1 inch SS Nipples",
+          "1/2 inch SS Nipples",
+          "Gaskets",
+          "Clamps"
+        ]
+      },
+      {
+        "name": "Syringes",
+        "products": [
+          "1 mL Syringes",
+          "2 mL Syringes",
+          "5 mL Syringes",
+          "10 mL Syringes",
+          "20 mL Syringes",
+          "50 mL Syringes"
+        ]
+      },
+      {
+        "name": "Laboratory Consumables",
+        "products": [
+          "TLC Plates",
+          "TLC Cutters",
+          "Buffer Papers",
+          "Normal Capillaries",
+          "Small Capillaries",
+          "Glass Vials",
+          "Plastic Vials – 0.5 mL",
+          "Plastic Vials – 1.5 mL",
+          "Plastic Vials – 2 mL",
+          "Homeopathic Vials – 0.5 mL",
+          "Homeopathic Vials – 1.5 mL",
+          "Homeopathic Vials – 2 mL",
+          "HPLC Vials with Septa – 2 mL",
+          "GC-HS Vials with Aluminium Caps – 20 mL",
+          "Septa – B14",
+          "Septa – B19",
+          "Septa – B24",
+          "Plastic Droppers",
+          "Squeezing Bottles – 500 mL",
+          "Squeezing Bottles – 1 L",
+          "White Cans – 5 L",
+          "White Cans – 10 L",
+          "White Cans – 20 L",
+          "Spatulas – Small",
+          "Spatulas – Medium",
+          "Spatulas – Large",
+          "Thermometers",
+          "Pipettes",
+          "Pipette Tips",
+          "Petri Dishes",
+          "Centrifuge Tubes",
+          "Reagent Bottles",
+          "Storage Vials",
+          "Carboys",
+          "Spill Kits"
+        ]
+      },
+      {
+        "name": "Miscellaneous",
+        "products": [
+          "Dust Bin Covers",
+          "Polythene Bags",
+          "Thermal Printer Rolls",
+          "Balloons",
+          "Hydrogen Bladders",
+          "EZYFLASH – 12 GM",
+          "EZYFLASH – 25 GM",
+          "EZYFLASH – 40 GM",
+          "Circulation Pumps",
+          "Wax",
+          "Pulse Oximeter"
+        ]
+      },
+      {
+        "name": "Pipetting",
+        "products": [
+          "Micropipettes",
+          "Pipette Tips",
+          "Filter Tips",
+          "Serological Pipettes"
+        ]
+      },
+      {
+        "name": "Tubes",
+        "products": [
+          "Microcentrifuge Tubes",
+          "PCR Tubes",
+          "Cryovials",
+          "Centrifuge Tubes",
+          "Falcon Tubes"
+        ]
+      },
+      {
+        "name": "Plates",
+        "products": [
+          "6-Well Plates",
+          "12-Well Plates",
+          "24-Well Plates",
+          "48-Well Plates",
+          "96-Well Plates",
+          "384-Well Plates",
+          "Microplates"
+        ]
+      },
+      {
+        "name": "Caps",
+        "products": ["HPLC Caps"]
+      },
+      {
+        "name": "Additional Laboratory Supplies",
+        "products": [
+          "Lab Coats",
+          "Cryo Boxes",
+          "Tube Racks",
+          "Microplates",
+          "Laboratory Glassware",
+          "Laboratory Plasticware"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "laboratory-equipment",
+    "slug": "laboratory-equipment",
+    "name": "Laboratory Equipment",
+    "shortDescription": "Laboratory instruments and accessories for research and analysis.",
+    "description": "Reliable laboratory equipment and supporting accessories for research, analytical, molecular biology and cell-culture workflows.",
+    "image": "assets/images/categories/laboratory-equipment.webp",
+    "imageAlt": "Laboratory Equipment – scientific laboratory visual",
+    "e": "⚙️",
+    "c": "#e3e8ef",
+    "subcategories": [
+      {
+        "name": "General Laboratory",
+        "products": [
+          "Centrifuges",
+          "Microscopes",
+          "Balances",
+          "pH Meters",
+          "Water Baths",
+          "Hot Plates",
+          "Magnetic Stirrers",
+          "Shakers",
+          "Vortex Mixers"
+        ]
+      },
+      {
+        "name": "Cell Culture",
+        "products": [
+          "CO₂ Incubators",
+          "Cell Culture Incubators",
+          "Biosafety Cabinets",
+          "Laminar Air Flow Cabinets"
+        ]
+      },
+      {
+        "name": "Molecular Biology",
+        "products": [
+          "PCR Systems",
+          "Thermal Cyclers",
+          "Gel Electrophoresis Systems",
+          "Gel Documentation Systems"
+        ]
+      },
+      {
+        "name": "Analytical",
+        "products": [
+          "HPLC Systems",
+          "HPLC Accessories",
+          "UV-Vis Spectrophotometers",
+          "Analytical Balances"
+        ]
+      },
+      {
+        "name": "Freezer Accessories",
+        "products": [
+          "Freezer Racks",
+          "Cryo Boxes",
+          "Temperature Monitoring",
+          "Alarm Systems",
+          "UPS / Backup Systems"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "laboratory-chemicals",
+    "slug": "laboratory-chemicals",
+    "name": "Laboratory Chemicals",
+    "shortDescription": "Laboratory chemicals and reagents for research and analytical use.",
+    "description": "Laboratory chemicals and reagents for research and analytical use. Tell us what you need and our team will respond with availability and a quotation.",
+    "image": "assets/images/categories/laboratory-chemicals.webp",
+    "imageAlt": "Laboratory Chemicals – scientific laboratory visual",
+    "e": "🧪",
+    "c": "#d4ecfa",
+    "subcategories": []
+  },
+  {
+    "id": "elisa-kits",
+    "slug": "elisa-kits",
+    "name": "ELISA Kits",
+    "shortDescription": "ELISA assay solutions for quantitative biomarker detection.",
+    "description": "ELISA assay solutions for sensitive and reliable quantitative detection of proteins, biomarkers, cytokines, hormones and disease-related targets.",
+    "image": "assets/images/categories/elisa-kits.webp",
+    "imageAlt": "ELISA Kits – scientific laboratory visual",
+    "e": "🔬",
+    "c": "#dde9fa",
+    "subcategories": [
+      {
+        "name": "Species",
+        "products": [
+          "Human ELISA Kits",
+          "Mouse ELISA Kits",
+          "Rat ELISA Kits",
+          "Other Animal Species"
+        ]
+      },
+      {
+        "name": "Research Areas / Targets",
+        "products": [
+          "Cytokines",
+          "Hormones",
+          "Growth Factors",
+          "Metabolic Markers",
+          "Cancer Markers",
+          "Immunology Markers",
+          "Inflammatory Markers"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "antibodies",
+    "slug": "antibodies",
+    "name": "Antibodies",
+    "shortDescription": "Research antibodies for detection and characterization of proteins.",
+    "description": "Research antibodies for protein detection, localization, characterization and immunological applications.",
+    "image": "assets/images/categories/antibodies.webp",
+    "imageAlt": "Antibodies – scientific laboratory visual",
+    "e": "🔬",
+    "c": "#dde9fa",
+    "subcategories": [
+      {
+        "name": "Antibody Types",
+        "products": [
+          "Primary Antibodies",
+          "Secondary Antibodies",
+          "Recombinant Antibodies",
+          "Monoclonal Antibodies",
+          "Polyclonal Antibodies",
+          "Fluorescent Antibodies"
+        ]
+      },
+      {
+        "name": "Applications",
+        "products": [
+          "IHC Antibodies",
+          "IF/ICC Antibodies",
+          "WB Antibodies",
+          "Flow Cytometry Antibodies"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "recombinant-antibodies-proteins",
+    "slug": "recombinant-antibodies-proteins",
+    "name": "Recombinant Antibodies / Proteins",
+    "shortDescription": "Recombinant antibodies and proteins for immunology and assay development.",
+    "description": "High-quality recombinant antibodies and proteins supporting immunology, cell biology, signaling, assay development and disease research.",
+    "image": "assets/images/categories/recombinant-antibodies-proteins.webp",
+    "imageAlt": "Recombinant Antibodies / Proteins – scientific laboratory visual",
+    "e": "🔬",
+    "c": "#dde9fa",
+    "subcategories": [
+      {
+        "name": "Recombinant Proteins",
+        "products": [
+          "Human Recombinant Proteins",
+          "Mouse Recombinant Proteins",
+          "Rat Recombinant Proteins"
+        ]
+      },
+      {
+        "name": "Protein Classes",
+        "products": [
+          "Cytokines",
+          "Growth Factors",
+          "Chemokines",
+          "Immune-Related Proteins",
+          "Disease-Related Proteins"
+        ]
+      },
+      {
+        "name": "Recombinant Antibodies",
+        "products": ["Recombinant Antibodies"]
+      }
+    ]
+  },
+  {
+    "id": "cell-biology",
+    "slug": "cell-biology",
+    "name": "Cell Biology",
+    "shortDescription": "Reagents and tools for cell culture, growth and differentiation.",
+    "description": "Cell biology research products supporting cell culture, growth, isolation, differentiation and transfection workflows.",
+    "image": "assets/images/categories/cell-biology.webp",
+    "imageAlt": "Cell Biology – scientific laboratory visual",
+    "e": "🔬",
+    "c": "#dde9fa",
+    "subcategories": [
+      {
+        "name": "Cell Biology Products",
+        "products": [
+          "Cell Culture Reagents",
+          "Cell Growth Factors",
+          "Cell Isolation Products",
+          "Cell Differentiation Products",
+          "Cell Transfection-Related Products"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "molecular-biology",
+    "slug": "molecular-biology",
+    "name": "Molecular Biology",
+    "shortDescription": "Reagents and kits for PCR, qPCR and nucleic-acid research.",
+    "description": "Molecular biology reagents and kits supporting PCR, qPCR, nucleic-acid research and routine molecular workflows.",
+    "image": "assets/images/categories/molecular-biology.webp",
+    "imageAlt": "Molecular Biology – scientific laboratory visual",
+    "e": "🔬",
+    "c": "#dde9fa",
+    "subcategories": [
+      {
+        "name": "PCR",
+        "products": ["PCR-Related Reagents", "qPCR Reagents"]
+      },
+      {
+        "name": "DNA / RNA",
+        "products": ["DNA/RNA-Related Products"]
+      },
+      {
+        "name": "Kits",
+        "products": ["Molecular Biology Kits"]
+      }
+    ]
+  },
+  {
+    "id": "immunoassay-detection",
+    "slug": "immunoassay-detection",
+    "name": "Immunoassay / Detection",
+    "shortDescription": "Immunoassay and detection reagents for biomarker analysis.",
+    "description": "Immunoassay and detection solutions for sensitive biomarker measurement and biological target analysis.",
+    "image": "assets/images/categories/immunoassay-detection.webp",
+    "imageAlt": "Immunoassay / Detection – scientific laboratory visual",
+    "e": "🔬",
+    "c": "#dde9fa",
+    "subcategories": [
+      {
+        "name": "Immunoassays",
+        "products": ["ELISA", "CLIA-Related Products"]
+      },
+      {
+        "name": "Reagents",
+        "products": ["Immunoassay Reagents", "Detection Reagents"]
+      }
+    ]
+  },
+  {
+    "id": "protein-research",
+    "slug": "protein-research",
+    "name": "Protein Research",
+    "shortDescription": "Protein standards, assays and purification products.",
+    "description": "Protein research products supporting quantification, standards, purification and analytical workflows.",
+    "image": "assets/images/categories/protein-research.webp",
+    "imageAlt": "Protein Research – scientific laboratory visual",
+    "e": "🔬",
+    "c": "#dde9fa",
+    "subcategories": [
+      {
+        "name": "Protein Analysis",
+        "products": ["Protein Standards", "Protein Assay Products"]
+      },
+      {
+        "name": "Purification",
+        "products": ["Protein Purification-Related Products"]
+      }
+    ]
+  }
+]

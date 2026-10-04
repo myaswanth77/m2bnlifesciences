@@ -1,0 +1,16 @@
+[
+  { "label": "Home", "href": "#top" },
+  { "label": "About Us", "href": "#about" },
+  { "label": "Brands", "href": "#brands" },
+  { "label": "Products", "href": "#products", "mega": "categories" },
+  { "label": "Industries", "href": "#industries" },
+  {
+    "label": "Resources",
+    "href": "#process",
+    "children": [
+      { "label": "Our Process", "href": "#process" },
+      { "label": "Our Services", "href": "#services" }
+    ]
+  },
+  { "label": "Contact Us", "href": "#contact" }
+]

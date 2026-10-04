@@ -1,0 +1,32 @@
+[
+  {
+    "i": "💊",
+    "name": "Pharmaceutical Companies",
+    "text": "Supporting drug discovery, development & research with reliable products."
+  },
+  {
+    "i": "🧬",
+    "name": "Biotechnology Companies",
+    "text": "Enabling innovation in biotechnology & life science research."
+  },
+  {
+    "i": "🫧",
+    "name": "CROs & CDMOs",
+    "text": "Quality products to support contract research & manufacturing."
+  },
+  {
+    "i": "🎓",
+    "name": "Academic & Research Institutions",
+    "text": "Empowering education and advanced scientific research."
+  },
+  {
+    "i": "🏥",
+    "name": "Hospitals & Diagnostic Labs",
+    "text": "Providing solutions for diagnostics and clinical research."
+  },
+  {
+    "i": "🏛️",
+    "name": "Government & Public Institutions",
+    "text": "Partnering in public health and government research initiatives."
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "name": "iPhase Biosciences",
+    "text": "Advanced ADME, primary cells, organoids, and biospecimens for drug discovery and development.",
+    "url": "#products",
+    "logo": "assets/logos/iphase.webp",
+    "lw": 400,
+    "lh": 101
+  },
+  {
+    "name": "Elabscience",
+    "text": "High-quality ELISA kits, antibodies, proteins, reagents, and tools for life science research.",
+    "url": "#products",
+    "logo": "assets/logos/elabscience.webp",
+    "lw": 240,
+    "lh": 40
+  },
+  {
+    "name": "BLD Pharm",
+    "text": "Building blocks, screening compounds, and specialty chemicals for pharmaceutical research.",
+    "url": "#products",
+    "logo": "assets/logos/bld-pharm.webp",
+    "lw": 542,
+    "lh": 130
+  },
+  {
+    "name": "BioIVT",
+    "text": "Biospecimens, cells, and research models for life science research. (edit this description)",
+    "url": "#products",
+    "logo": "assets/logos/bioivt.webp",
+    "lw": 511,
+    "lh": 150
+  },
+  {
+    "name": "TM Media",
+    "text": "Culture media and laboratory reagents for research and diagnostics. (edit this description)",
+    "url": "#products",
+    "logo": "assets/logos/tm-media.webp",
+    "lw": 772,
+    "lh": 150
+  },
+  {
+    "name": "MedChemExpress",
+    "slug": "medchemexpress",
+    "text": "Research reagents, inhibitors, recombinant proteins, antibodies, assay kits and life science research products.",
+    "url": "#products",
+    "logo": "assets/logos/medchemexpress.webp",
+    "lw": 172,
+    "lh": 60
+  }
+]

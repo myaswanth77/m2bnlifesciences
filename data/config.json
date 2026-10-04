@@ -1,0 +1,9 @@
+{
+  "quoteSubmission": {
+    "provider": "formspree",
+    "endpoint": "CONFIGURE_BEFORE_DEPLOYMENT",
+    "apiPath": "/api/quotes",
+    "recipient": "sales@m2bnlifesciences.com"
+  },
+  "dataSource": { "baseUrl": "data/", "suffix": ".json" }
+}

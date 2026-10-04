@@ -1,0 +1,93 @@
+{
+  "company": "M2BN Life Sciences",
+  "phone": "+91 9000130182",
+  "phoneAlt": "+91 9000130183",
+  "email": "sales@m2bnlifesciences.com",
+  "website": "www.m2bnlifesciences.com",
+  "websiteUrl": "https://m2bnlifesciences.com/",
+  "whatsapp": "919000130182",
+  "whatsappMessage": "Hello M2BN Life Sciences, I would like information about your products.",
+  "hours": "Mon – Sat: 9:30 AM – 6:30 PM",
+  "summary": "M2BN Life Sciences is committed to advancing life science research by providing high-quality products, reliable services, and trusted support.",
+  "social": [
+    {
+      "label": "LinkedIn",
+      "icon": "in",
+      "url": "https://www.linkedin.com/in/m2bn-life-sciences-92516337b"
+    },
+    {
+      "label": "Instagram",
+      "icon": "instagram",
+      "url": "https://www.instagram.com/m2bnlifesciences/"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Your trusted partner in",
+    "line1": "LIFE SCIENCE",
+    "line2": "SOLUTIONS",
+    "text": "Delivering high-quality research products, laboratory chemicals, consumables & equipment to accelerate scientific discovery and innovation."
+  },
+  "features": [
+    { "i": "🛡️", "a": "100%", "b": "Authentic Products" },
+    { "i": "🌐", "a": "Global", "b": "Trusted Brands" },
+    { "i": "🎧", "a": "Expert", "b": "Technical Support" },
+    { "i": "🚚", "a": "Pan India", "b": "Delivery Network" }
+  ],
+  "stats": [
+    { "i": "⚗️", "n": "5000+", "l": "Quality Products" },
+    { "i": "🏅", "n": "6", "l": "Global Brands" },
+    { "i": "📦", "n": "10+", "l": "Product Categories" },
+    { "i": "🎧", "n": "24/7", "l": "Customer Support" },
+    { "i": "📍", "n": "All India", "l": "Delivery Network" },
+    { "i": "✅", "n": "100%", "l": "Genuine Products" }
+  ],
+  "about": {
+    "eyebrow": "About M2BN Life Sciences",
+    "title": "Committed to Quality. Driven by Innovation.",
+    "paras": [
+      "M2BN Life Sciences is a leading supplier of high-quality life science products, laboratory chemicals, consumables, and equipment.",
+      "We are the authorized distributor of globally reputed brands <b>iPhase Biosciences</b>, <b>Elabscience</b>, and <b>BLD Pharm</b> in India.",
+      "Our mission is to empower researchers and industries with reliable products, timely delivery, and dedicated support to accelerate scientific discovery."
+    ]
+  },
+  "why": [
+    "Authorized distributor of global brands",
+    "100% genuine & high-quality products",
+    "Wide range of products under one roof",
+    "Competitive pricing & timely delivery",
+    "Expert technical support",
+    "Pan India delivery network"
+  ],
+  "trust": [
+    { "i": "🛡️", "a": "100% Genuine Products", "b": "Authentic & trusted" },
+    { "i": "🔬", "a": "Quality Assurance", "b": "Strict quality control" },
+    { "i": "🚚", "a": "Timely Delivery", "b": "Across India" },
+    { "i": "🎧", "a": "Expert Support", "b": "24/7 customer support" }
+  ],
+  "cta": {
+    "title": "Looking for the Right Product?",
+    "text": "Our experts are here to help you find the right products and solutions for your research requirements.",
+    "features": [
+      { "i": "🛡️", "t": "100% Genuine Products" },
+      { "i": "🚚", "t": "Timely Delivery" },
+      { "i": "🎧", "t": "Expert Technical Support" },
+      { "i": "📍", "t": "Pan India Delivery" }
+    ]
+  },
+  "offices": [
+    {
+      "name": "Hyderabad Office",
+      "city": "Hyderabad",
+      "address": "Kukatpally, Hyderabad",
+      "region": "Telangana",
+      "country": "IN"
+    },
+    {
+      "name": "Visakhapatnam Office",
+      "city": "Visakhapatnam",
+      "address": "Kurmannapalem, Visakhapatnam",
+      "region": "Andhra Pradesh",
+      "country": "IN"
+    }
+  ]
+}

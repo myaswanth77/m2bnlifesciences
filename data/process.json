@@ -1,0 +1,28 @@
+[
+  { "i": "📝", "name": "Enquiry", "text": "Share your requirements with us." },
+  {
+    "i": "📋",
+    "name": "Quote",
+    "text": "Receive the best quotation from our team."
+  },
+  {
+    "i": "✅",
+    "name": "Confirmation",
+    "text": "Order confirmation and details verification."
+  },
+  {
+    "i": "📦",
+    "name": "Dispatch",
+    "text": "Safe packaging and timely dispatch."
+  },
+  {
+    "i": "🚚",
+    "name": "Delivery",
+    "text": "Fast and secure delivery to your doorstep."
+  },
+  {
+    "i": "🎧",
+    "name": "Support",
+    "text": "Dedicated after-sales support whenever you need."
+  }
+]
