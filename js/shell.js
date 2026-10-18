@@ -1,5 +1,6 @@
 // Shared page shell: navigation, footer, quote modal, search. Used by index.html and product-category.html.
 import { submitQuote } from "./services/quoteService.js";
+const quoteDraftKey = "m2bn-quote-draft";
 export const $ = (s, r = document) => r.querySelector(s),
   $$ = (s, r = document) => [...r.querySelectorAll(s)];
 export const esc = (s) =>
@@ -24,6 +25,20 @@ export const catUrl = (c, sub, prod) =>
   `product-category.html?category=${c.slug}${prod ? "&product=" + slug(prod) : ""}${sub ? "#" + slug(sub) : ""}`;
 export const qb = (cls = "", pre = "") =>
   `<button class="btn ${cls}" data-quote${pre ? ` data-prefill="${esc(pre)}"` : ""}>Request a Quote →</button>`;
+const saveQuoteDraft = (data) => {
+  try {
+    sessionStorage.setItem(quoteDraftKey, JSON.stringify(data));
+    return true;
+  } catch (error) {
+    console.error("Could not save quote form details for retry.", error);
+    return false;
+  }
+};
+const showQuoteResult = (status, message) => {
+  location.assign(
+    `quote-result.html?status=${status}&message=${encodeURIComponent(message)}`,
+  );
+};
 const socialIcon = (icon) =>
   icon === "instagram"
     ? '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.25" fill="currentColor"/></svg>'
@@ -108,7 +123,7 @@ export function initShell({ site: s, nav, cats, brands, services }) {
 <label class="full">Message / Requirements *<textarea name="message" rows="4" required></textarea><span class="err"></span></label>
 <label class="full">Preferred contact method<select name="contactMethod"><option>Email</option><option>Phone</option><option>WhatsApp</option></select></label>
 <input class="hp" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
-<div class="full"><div id="qstatus" class="status" hidden></div><div class="actions"><button type="button" class="btn ghost" data-close>Cancel</button><button id="qsubmit" class="btn">Submit Request</button></div></div></form></div></div>
+<div class="full"><div class="actions"><button type="button" class="btn ghost" data-close>Cancel</button><button id="qsubmit" class="btn">Submit Request</button></div></div></form></div></div>
 <div id="searchModal" class="overlay" role="dialog" aria-modal="true" aria-label="Search"><div class="modal"><label for="sq"><b>Search categories, products, brands and services</b></label><input id="sq" type="search" style="width:100%;padding:.7rem;margin-top:.5rem;font-size:1rem" autocomplete="off"><div id="sr" class="results" aria-live="polite"></div><div class="actions"><button class="btn ghost" data-closes>Close</button></div></div></div>`,
   );
   const q = modal($("#quoteModal")),
@@ -117,7 +132,6 @@ export function initShell({ site: s, nav, cats, brands, services }) {
     const t = e.target.closest("[data-quote]");
     if (t) {
       e.preventDefault();
-      $("#qstatus").hidden = true;
       $("#qcat").value = t.dataset.prefill || "";
       q.open();
     }
@@ -199,6 +213,20 @@ export function initShell({ site: s, nav, cats, brands, services }) {
   };
   // quote form
   const f = $("#qform");
+  try {
+    const draft = sessionStorage.getItem(quoteDraftKey);
+    if (draft) {
+      const values = JSON.parse(draft);
+      for (const [name, value] of Object.entries(values)) {
+        const field = f.elements.namedItem(name);
+        if (field && "value" in field && typeof value === "string")
+          field.value = value;
+      }
+      sessionStorage.removeItem(quoteDraftKey);
+    }
+  } catch (error) {
+    console.error("Could not restore quote form details.", error);
+  }
   f.onsubmit = async (e) => {
     e.preventDefault();
     let ok = true;
@@ -214,28 +242,40 @@ export function initShell({ site: s, nav, cats, brands, services }) {
       if (m) ok = false;
     });
     if (!ok) {
-      f.querySelector("[aria-invalid=true]").focus();
+      const d = Object.fromEntries(new FormData(f));
+      const saved = saveQuoteDraft(d);
+      showQuoteResult(
+        "error",
+        `Please complete all required fields and check your email and phone number, then try again.${saved ? "" : " Your entries could not be saved, so please re-enter them."}`,
+      );
       return;
     }
     const d = Object.fromEntries(new FormData(f));
     if (d._gotcha) return; // honeypot
-    const btn = $("#qsubmit"),
-      st = $("#qstatus");
+    const btn = $("#qsubmit");
     btn.disabled = true;
     btn.textContent = "Sending…";
-    st.hidden = true;
     try {
       await submitQuote(d);
-      st.className = "status ok";
-      st.textContent =
-        "Thank you. Your request has been submitted successfully. Our team will contact you shortly.";
-      f.reset();
+      try {
+        sessionStorage.removeItem(quoteDraftKey);
+      } catch (error) {
+        console.error("Could not clear saved quote form details.", error);
+      }
+      showQuoteResult(
+        "success",
+        "Thank you. Your request has been submitted successfully. Our team will contact you shortly.",
+      );
     } catch (err) {
-      st.className = "status bad";
-      st.textContent = err.message;
+      const saved = saveQuoteDraft(d);
+      const message =
+        err instanceof Error
+          ? err.message
+          : "Submission failed. Please try again or email us directly.";
+      showQuoteResult(
+        "error",
+        `${message}${saved ? "" : " Your entries could not be saved, so please re-enter them."}`,
+      );
     }
-    st.hidden = false;
-    btn.disabled = false;
-    btn.textContent = "Submit Request";
   };
 }

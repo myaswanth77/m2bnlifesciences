@@ -15,6 +15,8 @@ Everything lives in `data/*.json`: `site.json` (contact, stats, hero, about, tru
 
 The quote form submits to Formspree at the endpoint configured in `data/config.json` → `quoteSubmission.endpoint`. Set the notification address and verify it in Formspree; `recipient` in config is informational only and does not send email. Set `provider` to `"api"` to POST JSON to `/api/quotes` later. No secrets belong in this repo.
 
+Successful quote submissions and submission or validation errors are shown on `quote-result.html`. If a submission fails, the form details are saved for retry in the current browser tab.
+
 ## GitHub Pages
 
 Push, then Settings → Pages → deploy from branch root. All paths are relative, so project sub-paths work. Custom domain: add a `CNAME` file and DNS records, update `websiteUrl` in `data/site.json`, and use the same domain in the static `robots.txt` and `sitemap.xml`.

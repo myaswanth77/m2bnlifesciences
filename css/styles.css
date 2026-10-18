@@ -737,19 +737,6 @@ section {
   position: absolute;
   left: -9999px;
 }
-.status {
-  margin-top: var(--sm);
-  padding: 0.7rem;
-  border-radius: var(--r-sm);
-}
-.status.ok {
-  background: #e6f5ec;
-  color: #0c5a2a;
-}
-.status.bad {
-  background: #fdecea;
-  color: #8c1d18;
-}
 .actions {
   display: flex;
   gap: var(--sm);
@@ -772,6 +759,64 @@ section {
   padding: var(--md);
   color: var(--muted);
   text-align: center;
+}
+.quote-result-page {
+  min-height: 100vh;
+  background: var(--bg);
+}
+.quote-result {
+  min-height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  padding-block: var(--lg);
+}
+.quote-result-brand {
+  margin-bottom: var(--md);
+}
+.quote-result-brand img {
+  display: block;
+  width: 150px;
+  height: auto;
+}
+.quote-result-card {
+  width: min(560px, 100%);
+  padding: clamp(1.5rem, 6vw, 3rem);
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  box-shadow: var(--sh-md);
+  text-align: center;
+}
+.quote-result-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 auto var(--sm);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #e6f5ec;
+  color: #0c5a2a;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.quote-result-card[data-status="error"] .quote-result-icon {
+  background: #fdecea;
+  color: #8c1d18;
+}
+.quote-result-card h1 {
+  margin-bottom: var(--sm);
+  color: var(--navy);
+}
+.quote-result-card p {
+  color: var(--muted);
+}
+.quote-result-actions {
+  display: flex;
+  justify-content: center;
+  gap: var(--sm);
+  flex-wrap: wrap;
+  margin-top: var(--md);
 }
 @media (max-width: 1100px) {
   .stats ul {

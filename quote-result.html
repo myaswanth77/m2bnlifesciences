@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="robots" content="noindex,follow" />
+    <title>Quote Request | M2BN Life Sciences</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module" src="js/quote-result.js"></script>
+  </head>
+  <body class="quote-result-page">
+    <main class="quote-result wrap">
+      <a class="quote-result-brand" href="index.html" aria-label="M2BN Life Sciences home">
+        <img src="assets/logos/m2bn-logo.webp" alt="M2BN Life Sciences" />
+      </a>
+      <section
+        id="quoteResult"
+        class="quote-result-card"
+        data-status="error"
+        aria-live="polite"
+      >
+        <div id="quoteResultIcon" class="quote-result-icon" aria-hidden="true">!</div>
+        <p id="quoteResultLabel" class="eyebrow">REQUEST NOT COMPLETED</p>
+        <h1 id="quoteResultTitle">There was a problem</h1>
+        <p id="quoteResultMessage">Your request could not be processed. Please try again.</p>
+        <div class="quote-result-actions">
+          <a id="quoteResultRetry" class="btn" href="index.html?quote=1">Try again</a>
+          <a class="btn ghost" href="index.html">Back to Home</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
