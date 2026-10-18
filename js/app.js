@@ -136,5 +136,12 @@ async function init() {
     "#contact",
     `<div><span class="i">📞</span><span><b>Call Us</b>${phoneLinks}</span></div><div><span class="i">📧</span><span><b>Email Us</b><a href="mailto:${s.email}" style="color:inherit;">${esc(s.email)}</a></span></div><div><span class="i">📍</span><span><b>Location</b>${s.offices.map((o) => esc(o.city)).join("<br>")}</span></div><div><span class="i">🕘</span><span><b>Working Hours</b>${esc(s.hours)}</span></div><div><span class="i g">💬</span><span><b><a href="${wa}" target="_blank" rel="noopener">Chat on WhatsApp</a></b>${phoneLinks}</span></div>`,
   );
+  if (new URLSearchParams(location.search).get("quote") === "1") {
+    document.querySelector("[data-quote]")?.click();
+  }
+  const hash = location.hash.slice(1);
+  if (hash) {
+    requestAnimationFrame(() => document.getElementById(hash)?.scrollIntoView());
+  }
 }
 init();
