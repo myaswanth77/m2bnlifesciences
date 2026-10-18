@@ -1,7 +1,7 @@
 {
   "quoteSubmission": {
     "provider": "formspree",
-    "endpoint": "CONFIGURE_BEFORE_DEPLOYMENT",
+    "endpoint": "https://formspree.io/f/xoejaybl",
     "apiPath": "/api/quotes",
     "recipient": "sales@m2bnlifesciences.com"
   },

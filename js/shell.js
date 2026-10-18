@@ -22,8 +22,8 @@ export const href = (h) =>
   h && h.startsWith("#") && !isHome() ? "index.html" + h : h; // hash links work from any page
 export const catUrl = (c, sub, prod) =>
   `product-category.html?category=${c.slug}${prod ? "&product=" + slug(prod) : ""}${sub ? "#" + slug(sub) : ""}`;
-// Request a Quote buttons are temporarily disabled for the current UI.
-export const qb = (cls = "", pre = "") => "";
+export const qb = (cls = "", pre = "") =>
+  `<button class="btn ${cls}" data-quote${pre ? ` data-prefill="${esc(pre)}"` : ""}>Request a Quote →</button>`;
 const socialIcon = (icon) =>
   icon === "instagram"
     ? '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.25" fill="currentColor"/></svg>'

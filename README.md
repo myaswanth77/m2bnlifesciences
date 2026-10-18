@@ -13,9 +13,7 @@ Everything lives in `data/*.json`: `site.json` (contact, stats, hero, about, tru
 
 ## Quote form email delivery
 
-1. Create a form at formspree.io and set its notification address to sales@m2bnlifesciences.com (verify it).
-2. Put the form URL in `data/config.json` → `quoteSubmission.endpoint`.
-   `recipient` in config is informational only; it does not send email. Until the endpoint is set, the form shows a clear "not connected" error (nothing is faked). Set `provider` to `"api"` to POST JSON to `/api/quotes` later. No secrets belong in this repo.
+The quote form submits to Formspree at the endpoint configured in `data/config.json` → `quoteSubmission.endpoint`. Set the notification address and verify it in Formspree; `recipient` in config is informational only and does not send email. Set `provider` to `"api"` to POST JSON to `/api/quotes` later. No secrets belong in this repo.
 
 ## GitHub Pages
 
